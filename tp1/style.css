@@ -1,0 +1,90 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+ font-size: 1rem;
+
+}
+
+
+#logo{
+ margin-left: 100px;
+
+
+}
+
+.navbar{
+
+background-color: #454647;
+color: rgba(255,255,255,.55);
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+
+}
+#header{
+
+
+margin-left:250px ;
+
+
+}
+.nav-link{
+
+    display: block;
+    padding: 0.5rem 1rem;
+ 
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    transition: all 1.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+color:white;
+transform:scale(1.2)
+}
+
+#comprar:hover{
+color: rgb(21, 204, 21);
+
+}
+main{
+    background-image: url(./imagenes/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.card{
+ margin: 10px;
+
+}
+.formulario{
+    margin-bottom: 150px;
+}
+footer{
+    width: 100%;
+    position: fixed;
+ 
+
+    left: 0;
+    bottom: 0;
+
+
+}
+.nav-item{
+ text-align: center;
+}
