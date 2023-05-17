@@ -50,9 +50,10 @@ margin-left:250px ;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-color:white;
+color:rgb(230, 227, 227)
 transform:scale(1.2)
 }
+
 
 #comprar:hover{
 color: rgb(21, 204, 21);
@@ -73,18 +74,69 @@ main{
 
 }
 .formulario{
-    margin-bottom: 150px;
+    margin-bottom: 30px;
 }
 footer{
     width: 100%;
-    position: fixed;
+
  
 
-    left: 0;
-    bottom: 0;
-
-
+   background-color: #18554d
 }
 .nav-item{
  text-align: center;
 }
+
+div[id="precios"]{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+text-align: center;
+padding: 10px;
+margin-left: 100px;
+transition: all 2s;
+flex-wrap: wrap;
+
+}
+
+#precios :hover{
+
+    transform:scale(1.05);
+
+    
+}
+
+.botones{
+
+display: flex;
+justify-content: space-evenly;
+
+
+
+}
+
+#resumen, #borrar{
+
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+ 
+}
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+
+  #total{
+
+ height: 40px;
+ 
+text-align: center;
+font-weight: bold;
+padding-top: 10px;
+padding-left: 5px;
+color:blue;
+  }
